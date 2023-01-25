@@ -1,4 +1,4 @@
-# 🗃 Projeto Individual MOD5
+# 🗃 Projeto Individual MOD 5
 > Atividade desenvolvida no 5º módulo do curso de Desenvolvimento WEB FullStack no projeto Programadores Cariocas do (Resilia + Senac).
 
 ### 🎯 Tarefa
