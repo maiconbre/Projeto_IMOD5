@@ -1,7 +1,7 @@
-# 🔠 Ordenar Propriedades de CSS 
-> Atividade desenvolvida no 4º módulo do curso de Desenvolvimento WEB FullStack no programa B2B Geração Futuro (Resilia + Stone).
+# 🔠 Projeto  
+> Atividade desenvolvida no 5º módulo do curso de Desenvolvimento WEB FullStack no projeto Programadores Cariocas do (Resilia + Senac).
 
-### 📌 Task
+### 📌 Tarefa
 - Usar o ``Node`` para montar um código que recebe uma
 lista de propriedades de CSS (ex: background-color, font-size,
 text-align) e devolve essa lista ordenada de A-Z.
