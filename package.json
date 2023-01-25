@@ -1,0 +1,25 @@
+{
+  "name": "css-properties-node",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellenmariadev/css-properties-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellenmariadev/css-properties-node/issues"
+  },
+  "homepage": "https://github.com/ellenmariadev/css-properties-node#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "express": "^4.18.1",
+    "readline-sync": "^1.4.10"
+  }
+}
