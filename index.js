@@ -1,13 +1,16 @@
-import readlineSync from "readline-sync";
+import readlineSync from "readline-sync"
 import chalk from "chalk";
-
 const properties = [];
 let input = "";
 
-while (input != "sair") {
-  properties.push(input);
-  input = readlineSync
-    .question("Digite uma propriedade CSS: ")
-    .toLocaleLowerCase();
+console.log("Digite as propriedades CSS. Digite 'SAIR' para finalizar.");
+
+while (input.toLowerCase() !== "sair") {
+    input = readlineSync.question("Digite uma propriedade: ");
+    if (input.toLowerCase() !== "sair") {
+        properties.push(input);
+    }
 }
-console.log(chalk.cyan.underline(properties.sort().join("\n")));
+
+console.log("Lista ordenada de propriedades CSS:")
+console.log(chalk.red.underline(properties.sort().join("\n")));
